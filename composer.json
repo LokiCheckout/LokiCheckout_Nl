@@ -1,0 +1,24 @@
+{
+    "name": "yireo/magento2-loki-checkout-nl",
+    "version": "0.0.1",
+    "description": "N/A",
+    "type": "magento2-module",
+    "require": {
+        "magento/framework": "*",
+        "yireo/magento2-loki-checkout": "0.0.*"
+    },
+    "suggest": {
+        "yireo/magento2-loki-checkout-postcode-nl": "Dutch postcode validation"
+    },
+    "license": [
+        "Open Software License (OSL)"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Yireo\\LokiCheckoutNl\\": ""
+        }
+    }
+}
