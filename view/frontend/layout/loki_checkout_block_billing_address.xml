@@ -23,5 +23,24 @@
                 </argument>
             </arguments>
         </referenceBlock>
+
+
+        <referenceBlock name="loki-checkout.billing-address.street0">
+            <arguments>
+                <argument name="field_label" xsi:type="string">Street Name</argument>
+            </arguments>
+        </referenceBlock>
+
+        <referenceBlock name="loki-checkout.billing-address.street1">
+            <arguments>
+                <argument name="field_label" xsi:type="string">Housenumber</argument>
+            </arguments>
+        </referenceBlock>
+
+        <referenceBlock name="loki-checkout.billing-address.street2">
+            <arguments>
+                <argument name="field_label" xsi:type="string">Addition</argument>
+            </arguments>
+        </referenceBlock>
     </body>
 </page>
