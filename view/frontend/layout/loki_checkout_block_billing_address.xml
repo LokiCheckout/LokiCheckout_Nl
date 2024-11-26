@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:View/Layout:etc/page_configuration.xsd">
+    <body>
+        <referenceBlock name="loki-checkout.billing-address.address-form">
+            <arguments>
+                <argument name="grid" xsi:type="array">
+                    <item name="account_type" xsi:type="string">col-span-6</item>
+                    <item name="company" xsi:type="string">col-span-6</item>
+                    <item name="prefix" xsi:type="string">col-span-2</item>
+                    <item name="firstname" xsi:type="string">col-span-5</item>
+                    <item name="middlename" xsi:type="string">col-span-5</item>
+                    <item name="lastname" xsi:type="string">col-span-5</item>
+                    <item name="country_id" xsi:type="string">col-span-12</item>
+                    <item name="street0" xsi:type="string">col-span-6</item>
+                    <item name="street1" xsi:type="string">col-span-3</item>
+                    <item name="street2" xsi:type="string">col-span-3</item>
+                    <item name="postcode" xsi:type="string">col-span-6</item>
+                    <item name="city" xsi:type="string">col-span-6</item>
+                    <item name="region" xsi:type="string">col-span-6</item>
+                    <item name="telephone" xsi:type="string">col-span-6</item>
+                    <item name="fax" xsi:type="string">col-span-6</item>
+                    <item name="vat_id" xsi:type="string">col-span-6</item>
+                </argument>
+            </arguments>
+        </referenceBlock>
+    </body>
+</page>
