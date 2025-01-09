@@ -7,8 +7,8 @@
             <block alias="middlename" sortOrder="3" gridClass="col-span-6"/>
             <block alias="lastname" sortOrder="4" gridClass="col-span-6"/>
             <block alias="street0" sortOrder="5" gridClass="col-span-6"/>
-            <block alias="street1" sortOrder="6" gridClass="col-span-3"/>
-            <block alias="street2" sortOrder="7" gridClass="col-span-3"/>
+            <block alias="street1" sortOrder="6" gridClass="col-span-6 md:col-span-3"/>
+            <block alias="street2" sortOrder="7" gridClass="col-span-6 md:col-span-3"/>
             <block alias="street3" sortOrder="8" gridClass="col-span-6"/>
             <block alias="postcode" sortOrder="9" gridClass="col-span-6"/>
             <block alias="city" sortOrder="10" gridClass="col-span-6"/>
