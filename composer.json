@@ -10,9 +10,7 @@
     "suggest": {
         "yireo/magento2-loki-checkout-postcode-nl": "Dutch postcode validation"
     },
-    "license": [
-        "Open Software License (OSL)"
-    ],
+    "license": "OSL-3.0",
     "autoload": {
         "files": [
             "registration.php"
