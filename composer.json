@@ -4,8 +4,8 @@
     "description": "N/A",
     "type": "magento2-module",
     "require": {
-        "magento/framework": "*",
-        "yireo/magento2-loki-checkout": "@dev"
+        "magento/framework": "^103.0",
+        "yireo/magento2-loki-checkout": "~0.0.5"
     },
     "suggest": {
         "yireo/magento2-loki-checkout-postcode-nl": "Dutch postcode validation"
