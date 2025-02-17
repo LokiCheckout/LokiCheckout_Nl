@@ -15,3 +15,5 @@ Next, enable this module:
 bin/magento module:enable Yireo_LokiCheckoutNl
 ```
 
+## CLI usage
+This module adds a new CLI `yireo:loki-checkout:generate-regions:nl` that allows you to generate the Dutch provinces. Note that this is actually not too common in Dutch webshops.  

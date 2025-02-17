@@ -7,4 +7,12 @@
             </argument>
         </arguments>
     </type>
+
+    <type name="Magento\Framework\Console\CommandList">
+        <arguments>
+            <argument name="commands" xsi:type="array">
+                <item name="Yireo_LokiCheckoutNl::generateDutchRegions" xsi:type="object">Yireo\LokiCheckoutNl\Console\Command\GenerateDutchRegionsCommand</item>
+            </argument>
+        </arguments>
+    </type>
 </config>
