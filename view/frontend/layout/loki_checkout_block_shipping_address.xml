@@ -1,12 +1,6 @@
 <?xml version="1.0"?>
 <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:View/Layout:etc/page_configuration.xsd">
     <body>
-        <referenceBlock name="loki-checkout.shipping-address.address-form">
-            <arguments>
-                <argument name="grid_layout" xsi:type="string">dutch_grid</argument>
-            </arguments>
-        </referenceBlock>
-
         <referenceBlock name="loki-checkout.shipping-address.street0">
             <arguments>
                 <argument name="field_label" xsi:type="string">Street Name</argument>
