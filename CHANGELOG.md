@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.0.5] - 08 April 2025
+### Fixed
+- Housekeeping changes
+
 ## [0.0.4] - 11 March 2025
 ### Fixed
 - Move GridLayout from XML layout to config
