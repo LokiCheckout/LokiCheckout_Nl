@@ -6,6 +6,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.0] - 17 May 2025
+### Fixed
+- Generate new MODULE.json with simple test count
+- Allow PHP 8.4 in CI
+
 ## [0.0.7] - 25 April 2025
 ### Fixed
 - Allow upgrading to LokiFieldComponents and LokiCheckout 1.0
