@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Yireo\LokiCheckoutNl\DataProvider;
+namespace LokiCheckout\Nl\DataProvider;
 
 class DutchRegionDataProvider
 {

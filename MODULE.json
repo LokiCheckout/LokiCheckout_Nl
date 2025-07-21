@@ -1,7 +1,7 @@
 {
     "modules": [
         "Magento_Directory",
-        "Yireo_LokiCheckout"
+        "LokiCheckout_Core"
     ],
     "components": [],
     "config": [],
