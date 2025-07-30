@@ -3,19 +3,19 @@
     <body>
         <referenceBlock name="loki-checkout.shipping-address.street0">
             <arguments>
-                <argument name="field_label" xsi:type="string">Street Name</argument>
+                <argument name="field_label" xsi:type="string" translate="true">Street Name</argument>
             </arguments>
         </referenceBlock>
 
         <referenceBlock name="loki-checkout.shipping-address.street1">
             <arguments>
-                <argument name="field_label" xsi:type="string">Housenumber</argument>
+                <argument name="field_label" xsi:type="string" translate="true">Housenumber</argument>
             </arguments>
         </referenceBlock>
 
         <referenceBlock name="loki-checkout.shipping-address.street2">
             <arguments>
-                <argument name="field_label" xsi:type="string">Addition</argument>
+                <argument name="field_label" xsi:type="string" translate="true">Addition</argument>
             </arguments>
         </referenceBlock>
     </body>
