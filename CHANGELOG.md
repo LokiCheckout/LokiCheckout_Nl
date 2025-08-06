@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.0.2] - 06 August 2025
+### Fixed
+- Lower PHP requirement to PHP 8.2+
+
 ## [2.0.1] - 01 August 2025
 ### Fixed
 - Add translate attribute to various XML layout arguments
