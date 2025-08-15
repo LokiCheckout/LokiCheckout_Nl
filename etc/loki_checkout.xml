@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:LokiCheckout_Core:etc/loki_checkout.xsd">
     <grid_layouts>
-        <grid_layout name="default_grid" label="Default grid" defaultColSpan="12" defaultMdColSpan="6">
+        <grid_layout name="default_grid">
             <grid name="netherlands" countryId="NL" parent="default">
                 <block alias="country_id" mdColSpan="12" />
             </grid>
