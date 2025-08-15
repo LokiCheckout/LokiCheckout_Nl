@@ -6,6 +6,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.0.3] - 15 August 2025
+### Fixed
+- Remove redundant XML attributes in loki_checkout.xm
+- Move netherlands grid of default grid layout from core to here
+- Add translation for street field labels
+
 ## [2.0.2] - 06 August 2025
 ### Fixed
 - Lower PHP requirement to PHP 8.2+
