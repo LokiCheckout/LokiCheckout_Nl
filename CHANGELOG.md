@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.0.7] - 16 September 2025
+### Fixed
+- Add integration test
+
 ## [2.0.6] - 29 August 2025
 ### Fixed
 - Add CI files
