@@ -2,8 +2,8 @@
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
     <module name="LokiCheckout_Nl">
         <sequence>
-            <module name="Magento_Directory"/>
             <module name="LokiCheckout_Core"/>
+            <module name="Magento_Directory"/>
         </sequence>
     </module>
 </config>
