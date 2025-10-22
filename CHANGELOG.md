@@ -6,6 +6,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.0.8] - 22 October 2025
+### Fixed
+- Remove int return type from Symfony commands for Symfony 5 compat
+- Update README
+
 ## [2.0.7] - 16 September 2025
 ### Fixed
 - Add integration test
