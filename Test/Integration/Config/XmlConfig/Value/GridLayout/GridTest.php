@@ -23,7 +23,7 @@ class GridTest extends TestCase
         $gridLayout = $xmlConfig->getGridLayout('default_grid');
 
         $gridNames = $gridLayout->getGridNames();
-        $this->assertArrayHasKey($gridName, $gridNames, var_export($gridNames, true));
+        $this->assertContains($gridName, $gridNames, var_export($gridNames, true));
 
         $grid = $gridLayout->getGridByName($gridName);
         $block = $grid->getBlock($blockAlias);
