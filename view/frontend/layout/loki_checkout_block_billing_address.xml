@@ -1,19 +1,19 @@
 <?xml version="1.0"?>
 <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:View/Layout:etc/page_configuration.xsd">
     <body>
-        <referenceBlock name="loki-checkout.billing-address.street0">
+        <referenceBlock name="loki-checkout.billing.address.street0">
             <arguments>
                 <argument name="field_label" xsi:type="string" translate="true">Street Name</argument>
             </arguments>
         </referenceBlock>
 
-        <referenceBlock name="loki-checkout.billing-address.street1">
+        <referenceBlock name="loki-checkout.billing.address.street1">
             <arguments>
                 <argument name="field_label" xsi:type="string" translate="true">Housenumber</argument>
             </arguments>
         </referenceBlock>
 
-        <referenceBlock name="loki-checkout.billing-address.street2">
+        <referenceBlock name="loki-checkout.billing.address.street2">
             <arguments>
                 <argument name="field_label" xsi:type="string" translate="true">Addition</argument>
             </arguments>
