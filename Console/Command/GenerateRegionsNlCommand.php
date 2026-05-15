@@ -26,7 +26,7 @@ class GenerateRegionsNlCommand extends Command
         $this->setDescription('Generate Dutch regions in the Magento database');
     }
 
-    protected function execute(InputInterface $input, OutputInterface $output)
+    protected function execute(InputInterface $input, OutputInterface $output): int
     {
         $dataInstaller = $this->dataInstallerFactory->create();
         $dataInstaller->addCountryRegions(
