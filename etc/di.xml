@@ -7,12 +7,4 @@
             </argument>
         </arguments>
     </type>
-
-    <type name="Magento\Framework\Console\CommandList">
-        <arguments>
-            <argument name="commands" xsi:type="array">
-                <item name="LokiCheckout_Nl::generateRegionsNl" xsi:type="object">LokiCheckout\Nl\Console\Command\GenerateRegionsNlCommand</item>
-            </argument>
-        </arguments>
-    </type>
 </config>
