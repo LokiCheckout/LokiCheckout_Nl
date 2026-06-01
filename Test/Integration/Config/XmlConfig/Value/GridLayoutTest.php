@@ -21,7 +21,6 @@ class GridLayoutTest extends TestCase
 
     /**
      * @return ObjectManagerInterface
-     * @SuppressWarnings(PHPMD.StaticAccess)
      */
     private function getObjectManager(): ObjectManagerInterface
     {
