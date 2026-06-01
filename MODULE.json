@@ -1,7 +1,6 @@
 {
     "sequence": [
-        "LokiCheckout_Core",
-        "Magento_Directory"
+        "LokiCheckout_Core"
     ],
     "modules": [
         "LokiCheckout_Core",
