@@ -6,6 +6,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.0.12] - 01 June 2026
+### Fixed
+- Change column width on mobile
+- Move region command to module `LokiCheckout_NlRegion`
+- Apply mask for postcode
+- Dynamically change labels and grid-settings if country is `NL`
+
 ## [2.0.11] - 15 May 2026
 ### Fixed
 - Fix Symfony 7 console command compat
