@@ -3,7 +3,6 @@
     <module name="LokiCheckout_Nl">
         <sequence>
             <module name="LokiCheckout_Core"/>
-            <module name="Magento_Directory"/>
         </sequence>
     </module>
 </config>
