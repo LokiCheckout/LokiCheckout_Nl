@@ -4,8 +4,7 @@
     "description": "Dutch settings",
     "keywords": [
         "loki-checkout",
-        "loki-checkout-plan-trial",
-        "loki-checkout-category-language"
+        "loki-checkout-category-country"
     ],
     "type": "magento2-module",
     "require": {
