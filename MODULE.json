@@ -38,7 +38,6 @@
     "module_name": "LokiCheckout_Nl",
     "composer_name": "loki-checkout/magento2-nl",
     "php_versions": [
-        "8.1",
         "8.2",
         "8.3",
         "8.4",
