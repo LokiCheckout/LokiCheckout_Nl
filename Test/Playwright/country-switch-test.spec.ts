@@ -1,6 +1,6 @@
 import {Field} from '@loki-checkout/checkout-objects';
-import {setupCheckout} from '@loki-checkout/setup-checkout';
-import {expect, test} from '@loki-checkout/test';
+import {setupCheckout} from '@loki/setup-checkout';
+import {expect, test} from '@loki/test';
 import coreConfig from '@loki-checkout/config';
 
 test.describe('country-switch', function () {
