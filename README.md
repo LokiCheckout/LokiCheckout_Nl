@@ -8,7 +8,7 @@
 <!-- badges.specs.end -->
 
 
-**This Magento 2 module is an add-on package for adding some settings that feel good for the Dutch market. Note that it is not required. It changes a couple of field labels and adds a grid layout `dutch_grid`. Both can also be defined in a custom project-specific module.**
+**This Magento 2 module is an add-on package for adding some settings that feel good for the Dutch market. Note that it is not required. When the country `NL` is selected, it changes a couple of address field labels, adds a postcode placeholder and mask, narrows the housenumber and addition fields and adds a grid `netherlands` to the grid layout `default_grid`. All of this can also be defined in a custom project-specific module.**
 
 ## Installation
 Install this package via composer:
@@ -21,8 +21,8 @@ Next, enable this module:
 bin/magento module:enable LokiCheckout_Nl
 ```
 
-## CLI usage
-This module adds a new CLI `loki-checkout:generate-regions:nl` that allows you to generate the Dutch provinces. Note that this is actually not too common in Dutch webshops.  
+## Dutch provinces
+To generate the Dutch provinces as regions, use the separate module `LokiCheckout_NlRegion`. Note that this is actually not too common in Dutch webshops.
 
 ## Current status
 
