@@ -5,6 +5,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+### Fixed
+- Apply column widths of housenumber and addition for all skins, not only the `default` skin
+- Require `LokiCheckout_Core` 2.7 or higher for the `*_shipping_address_country_*` and `*_billing_address_country_*` handles
+- Add Dutch translation for `Province`
+- Fix outdated README
+- Use static data provider attribute in GridTest
 
 ## [2.0.12] - 01 June 2026
 ### Fixed

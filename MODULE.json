@@ -32,7 +32,7 @@
     "config": [],
     "tests": {
         "unit": 0,
-        "integration": 2,
+        "integration": 4,
         "functional": 0
     },
     "module_name": "LokiCheckout_Nl",
