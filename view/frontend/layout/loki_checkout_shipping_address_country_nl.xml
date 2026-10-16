@@ -10,12 +10,16 @@
         <referenceBlock name="loki-checkout.shipping.address.street1">
             <arguments>
                 <argument name="field_label" xsi:type="string" translate="true">Housenumber</argument>
+                <argument name="col_span" xsi:type="number">6</argument>
+                <argument name="md_col_span" xsi:type="number">3</argument>
             </arguments>
         </referenceBlock>
 
         <referenceBlock name="loki-checkout.shipping.address.street2">
             <arguments>
                 <argument name="field_label" xsi:type="string" translate="true">Addition</argument>
+                <argument name="col_span" xsi:type="number">6</argument>
+                <argument name="md_col_span" xsi:type="number">3</argument>
             </arguments>
         </referenceBlock>
 
