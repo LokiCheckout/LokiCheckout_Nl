@@ -6,17 +6,14 @@ namespace LokiCheckout\Nl\Test\Integration\Config\XmlConfig\Value\GridLayout;
 use Magento\Framework\App\ObjectManager;
 use Magento\Framework\ObjectManagerInterface;
 use Magento\TestFramework\Fixture\Cache;
+use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\TestCase;
-use RuntimeException;
 use LokiCheckout\Core\Config\XmlConfig;
 
 class GridTest extends TestCase
 {
-    /**
-     * @return void
-     * @dataProvider getTestGridBlockArguments
-     */
     #[Cache('config', false)]
+    #[DataProvider('getTestGridBlockArguments')]
     public function testGridBlock(string $gridName, string $blockAlias, int $colSpan, int $mdColspan)
     {
         $xmlConfig = $this->getObjectManager()->get(XmlConfig::class);
@@ -31,7 +28,7 @@ class GridTest extends TestCase
         $this->assertEquals($mdColspan, $block->getMdColSpan());
     }
 
-    public function getTestGridBlockArguments(): array
+    public static function getTestGridBlockArguments(): array
     {
         return [
             ['netherlands', 'city', 12, 6],
