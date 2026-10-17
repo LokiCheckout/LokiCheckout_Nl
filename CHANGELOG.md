@@ -11,6 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Add Dutch translation for `Province`
 - Fix outdated README
 - Use static data provider attribute in GridTest
+- Require `LokiCheckout_Core` 2.7.4 or higher so that Dutch billing labels also show up for virtual orders
 
 ## [2.0.12] - 01 June 2026
 ### Fixed
