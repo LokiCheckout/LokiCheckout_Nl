@@ -5,11 +5,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+
+## [2.0.13] - 30 October 2026
 ### Fixed
+- Require `LokiCheckout_Core` 2.7.4 for Dutch billing labels on virtual orders
+- Add Dutch translation for Province
+- Apply NL street field widths for all skins
 - Apply column widths of housenumber and addition for all skins, not only the `default` skin
-- Require `LokiCheckout_Core` 2.7 or higher for the `*_shipping_address_country_*` and `*_billing_address_country_*` handles
-- Add Dutch translation for `Province`
-- Fix outdated README
 - Use static data provider attribute in GridTest
 - Require `LokiCheckout_Core` 2.7.4 or higher so that Dutch billing labels also show up for virtual orders
 - Add integration test for mixed shipping and billing countries (billing grid `netherlands` with shipping `DE`)
